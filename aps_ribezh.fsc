@@ -290,15 +290,15 @@
   <zone idx="15" no="17" name="ИТП (135)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="16" no="18" name="Электрощитовая (136)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -602,8 +602,6 @@
   <zone idx="39" no="41" name="Тамбур разд. (237)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
@@ -611,6 +609,8 @@
     <param name="Skipped" type="Bool" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="40" no="42" name="Раздевальная (238)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -677,7 +677,9 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="45" no="46" name="Тамбур буфет (118)">
+  <zone idx="45" no="46" name="Тамбур буфет (118)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
@@ -2346,6 +2348,7 @@
               <prop name="INT$DEV_GUID" type="String" value="{689A37C9-D33A-41E4-A331-EF2B3B08B1C0}"/>
             </dev>
             <dev drv="17" addr="45">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{53D3D06D-BBF0-40F2-86B9-92EF38F662A3}"/>
             </dev>
             <dev drv="17" addr="46">
@@ -3795,7 +3798,7 @@
           <dev drv="16" addr="1">
             <prop name="INT$DEV_GUID" type="String" value="{CA5E0978-5D60-49E1-BF00-3A003BEC5AF9}"/>
             <dev drv="17" addr="1" name="Нет питания ИПДЛ">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;50&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24"/>
               <prop name="INT$DEV_GUID" type="String" value="{2683F113-0267-41E2-8EC7-1AF941104D35}"/>
             </dev>
             <dev drv="17" addr="2" name="Инд. раб. ШУЗ">
