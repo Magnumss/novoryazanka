@@ -95,666 +95,678 @@
   <zone idx="0" no="2" name="Вестибюль (102)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="1" no="3" name="Помещение охр. (103)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="2" no="4" name="Инвентарная (104)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="3" no="5" name="Kабинет врача (105)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="4" no="6" name="Ожидальная (107)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="5" no="7" name="Гардероб (108)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="6" no="8" name="Бытовое пом. (109)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="7" no="9" name="Буфет (113)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="8" no="13" name="Коридор 1эт. (121)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="9" no="14" name="Серверная (122)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="10" no="15" name="Тамбур разд. (124)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="11" no="16" name="Раздевальная (125)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="12" no="17" name="Инвентарная (129)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="13" no="18" name="Тамбур разд. (130)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="14" no="19" name="Раздевальная (131)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="15" no="20" name="ИТП (135)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="16" no="21" name="Электрощитовая (136)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="17" no="22" name="Игровой зал (137)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="1"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="18" no="23" name="Тамбур раздев. (138)" desc="Санузел для поля" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="19" no="24" name="Техпомещение (201)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="20" no="25" name="Каб.специалистов(202" desc="202" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="21" no="26" name="Тренерская (203)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="22" no="27" name="Тренерская (204)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="23" no="28" name="Коридор 2эт. (205)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="24" no="29" name="Судейская (206)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="25" no="30" name="Кабинет дир. (211)" desc="Директор" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="26" no="31" name="Приемная (212)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="27" no="32" name="Каб зам дир (213)" desc="Заместитель директора" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="28" no="33" name="Кабинет ИТР (214)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="29" no="34" name="Методкабинет (215)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="30" no="36" name="Коридор лифт (218)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="31" no="37" name="Коридор 2эт. (219)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="32" no="38" name="Тамбур разд. (220)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="33" no="39" name="Раздевальная (221)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="34" no="43" name="Инвентарная (228)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="35" no="44" name="Тамбур разд. (229)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="36" no="45" name="Раздевальная (230)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="37" no="46" name="Тамбур разд. (233)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="38" no="47" name="Раздевальная (234)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="39" no="48" name="Тамбур разд. (237)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="40" no="49" name="Раздевальная (238)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="41" no="12" name="Коридор лифт (120)" desc="Рядом с лифтом" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="42" no="52" name="КПП" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="1"/>
   </zone>
   <zone idx="43" no="54" name="Авария 12В ИПДЛ" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="6"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="44" no="53" name="Гараж" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="45" no="11" name="Тамбур буфет (118)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
-  <zone idx="46" no="1" name="Тамбур вход (101)">
-    <param name="ZoneType" type="Int" value="0"/>
+  <zone idx="46" no="1" name="Тамбур вход (101)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="47" no="10" name="Гардероб буфет (115)">
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
+  <zone idx="47" no="10" name="Гардероб буфет (115)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
-  <zone idx="48" no="40" name="Пож.безоп.зона (225)">
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
+  <zone idx="48" no="40" name="Пож.безоп.зона (225)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
-  <zone idx="49" no="41" name="Коридор  МГН (226)">
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+  <zone idx="49" no="41" name="Коридор  МГН (226)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
-  <zone idx="50" no="42" name="Тренажерный зал(227)">
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
+  <zone idx="50" no="42" name="Тренажерный зал(227)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
-  <zone idx="51" no="35" name="Венткамера (216)">
-    <param name="GuardZoneType" type="Int" value="0"/>
+  <zone idx="51" no="35" name="Венткамера (216)" idZones="0">
+    <param name="DB$IDZones" type="Int" value="0"/>
+    <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <dev drv="0" addr="0">
     <prop name="INT$DEV_GUID" type="String" value="{167E5B78-CB68-4A49-AC7F-5BB80BC3E6EC}"/>
@@ -981,7 +993,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}"/>
           </dev>
           <dev drv="33" addr="311" name="ДИП за потолком">
-            <prop name="Config$SerialNum" value="416044200"/>
+            <prop name="Config$SerialNum" value="416004640"/>
             <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{C9674385-0D56-443D-A5AB-E93287E71721}"/>
             <inZ idz="8"/>
@@ -2178,6 +2190,7 @@
             </dev>
             <dev drv="31" addr="1">
               <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$SerialNum" value="4294967295"/>
               <prop name="Config$SoftVersion" value="264"/>
               <prop name="INT$DEV_GUID" type="String" value="{A2642F2C-B9C0-4324-AFF1-DC554301EBAE}"/>
@@ -2220,522 +2233,782 @@
             </dev>
           </dev>
           <dev drv="43" addr="370">
+            <prop name="Config$SerialNum" value="116003729"/>
+            <prop name="Config$SoftVersion" value="1032"/>
             <prop name="INT$DEV_GUID" type="String" value="{5CE1FD8A-4F86-4EC3-860E-62ADBFA5ECEC}"/>
             <inZ idz="45"/>
           </dev>
           <dev drv="43" addr="517">
+            <prop name="Config$SerialNum" value="116003741"/>
+            <prop name="Config$SoftVersion" value="1032"/>
             <prop name="INT$DEV_GUID" type="String" value="{33B31D31-F8C2-44BB-A7C9-855CE8B4FC9E}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="257" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043461"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{3B26415F-0169-43AD-9895-C126310D22B8}"/>
             <inZ idz="1"/>
           </dev>
           <dev drv="33" addr="275" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043395"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{CB08999E-1B89-4034-8E0F-39C6307006C2}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="286" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043399"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{BA6EF0F5-1397-42DB-8BBD-265634F09F5B}"/>
             <inZ idz="46"/>
           </dev>
           <dev drv="33" addr="287" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416005069"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{E5B80F5A-A716-47F4-A64C-CA6DFEDFD8A0}"/>
             <inZ idz="46"/>
           </dev>
           <dev drv="33" addr="288" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043396"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{5FF7E692-C5E3-4983-843B-5D4704EFED00}"/>
             <inZ idz="0"/>
           </dev>
           <dev drv="33" addr="259" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416004639"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{CD441F69-1598-4BA1-93AC-AAC18AC0DD9F}"/>
             <inZ idz="1"/>
           </dev>
           <dev drv="33" addr="266" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043400"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{761C4C6D-8335-45A6-8C15-4D8A968CE934}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="268" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043470"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{DD22E2EB-734E-4909-ADEA-0ABDC10FA5D4}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="280" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043394"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{EE72731B-4E50-4E4E-80D4-FF844EA77F28}"/>
             <inZ idz="0"/>
           </dev>
           <dev drv="33" addr="282" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416005068"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{A0386EDA-D579-48DB-BEE1-027F44AC1AEE}"/>
             <inZ idz="0"/>
           </dev>
           <dev drv="33" addr="290" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043462"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{689E9A14-0433-4825-B03D-C580155892F2}"/>
             <inZ idz="0"/>
           </dev>
           <dev drv="33" addr="292" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416005066"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7D50F697-2C0F-4204-9065-0A48053E6CB6}"/>
             <inZ idz="5"/>
           </dev>
           <dev drv="33" addr="294" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043464"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{75488BD4-7422-42F4-902F-224E70A52271}"/>
             <inZ idz="5"/>
           </dev>
           <dev drv="33" addr="297" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416004638"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{2AC75269-2B75-4FAE-84A0-55832CB03F09}"/>
             <inZ idz="14"/>
           </dev>
           <dev drv="33" addr="299" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416004626"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{52CFD499-2634-4923-BBFF-0BA368D2874F}"/>
             <inZ idz="14"/>
           </dev>
           <dev drv="33" addr="301" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037588"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{38331BFE-CA81-4F5E-8467-ED599D460DC6}"/>
             <inZ idz="14"/>
           </dev>
           <dev drv="33" addr="303" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037590"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{AD8DB70B-75CE-497B-8E68-134A56A32454}"/>
             <inZ idz="13"/>
           </dev>
           <dev drv="33" addr="305" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004541"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{EF0E45C3-8488-48A5-95EC-5CEFE5A9A4DD}"/>
             <inZ idz="13"/>
           </dev>
           <dev drv="33" addr="307" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037585"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D76182CC-7153-4960-90ED-C051D0521F74}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="310" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011779"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D08ECC28-4F6B-45A7-BD86-F6B427C73308}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="312" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037584"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{56A76F3E-5ACF-43DA-96AA-99C8ABCA8E88}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="314" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016513"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7663C0A8-85AF-4501-BBBB-BC970D17155E}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="321" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037591"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{59D513A9-A6C7-4C61-BE1B-C0431848580E}"/>
             <inZ idz="12"/>
           </dev>
           <dev drv="33" addr="324" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011778"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{DAF41ACA-2497-4568-BAB3-AACABF697093}"/>
             <inZ idz="12"/>
           </dev>
           <dev drv="33" addr="326" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004540"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{C6772F90-AF8C-4D17-8E21-BC44BB178B1D}"/>
             <inZ idz="18"/>
           </dev>
           <dev drv="33" addr="328" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004544"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{4A5A312E-ABBF-4045-A4A4-42231884991D}"/>
             <inZ idz="18"/>
           </dev>
           <dev drv="33" addr="332" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016512"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D56F7999-178A-4731-9294-F4ED12E768A0}"/>
             <inZ idz="2"/>
           </dev>
           <dev drv="33" addr="335" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037586"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{AF69D1B0-3956-4BB9-8EAD-5D98D669B22A}"/>
             <inZ idz="2"/>
           </dev>
           <dev drv="33" addr="337" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004543"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{B4CB578B-E851-4FC8-A3F3-67AF8E20B31F}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="339" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011781"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{B943AA75-4731-4B24-8650-8E617E6097C4}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="344" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004546"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{4042A96E-1200-43A8-9C4C-2176589F3D03}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="346" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043392"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{8B9BDF1D-7868-4623-90BC-3169FF8D04B9}"/>
             <inZ idz="10"/>
           </dev>
           <dev drv="33" addr="348" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000391"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{00265E14-7636-430A-89D7-4A508DEFACBD}"/>
             <inZ idz="10"/>
           </dev>
           <dev drv="33" addr="350" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000390"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{9C8C6D4E-A199-41F4-A5FD-DF544CF49974}"/>
             <inZ idz="11"/>
           </dev>
           <dev drv="33" addr="352" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000411"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{537FE83C-6EE5-43AF-8005-2448F6806A36}"/>
             <inZ idz="11"/>
           </dev>
           <dev drv="33" addr="354" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000385"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{2E9652FD-211A-4A3E-A5D6-814DA7C40CE9}"/>
             <inZ idz="11"/>
           </dev>
           <dev drv="33" addr="357" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035978"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{38757D14-1FCC-4F34-92CD-32730E3BB05B}"/>
             <inZ idz="41"/>
           </dev>
           <dev drv="33" addr="361" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035979"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{373357A3-0C77-4F17-B711-A2051445BF3D}"/>
             <inZ idz="41"/>
           </dev>
           <dev drv="33" addr="363" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000387"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{FF257F9D-1899-4096-B956-A5E7E2701B86}"/>
             <inZ idz="41"/>
           </dev>
           <dev drv="33" addr="365" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000389"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{9B6DD1E3-992E-46B2-A32C-7F138453FCE9}"/>
             <inZ idz="47"/>
           </dev>
           <dev drv="33" addr="366" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000412"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{F5081ED6-B2C5-4D4C-BD89-4B505F87068E}"/>
             <inZ idz="47"/>
           </dev>
           <dev drv="33" addr="367" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000414"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{7FDFE911-4D2C-494C-B7DD-E53BB1C609BB}"/>
             <inZ idz="45"/>
           </dev>
           <dev drv="33" addr="371" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000388"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{2253D3D1-0806-4058-B9AB-C05ABCE0A52C}"/>
             <inZ idz="45"/>
           </dev>
           <dev drv="33" addr="376" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000238"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{38006A61-5795-4081-8A21-14BF5194FD88}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="378" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000413"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{96384991-448B-4FFF-8E4B-6B787E36D10C}"/>
             <inZ idz="7"/>
           </dev>
           <dev drv="33" addr="380" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000392"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{10533D5A-F722-4A81-BCF2-8573B9F7C7A8}"/>
             <inZ idz="7"/>
           </dev>
           <dev drv="33" addr="382" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000386"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{EB6370AE-9BA7-4B45-9DE4-7E5E9A3C2F50}"/>
             <inZ idz="3"/>
           </dev>
           <dev drv="33" addr="384" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016516"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{09C45993-64EE-45F3-9158-479EF090D2D3}"/>
             <inZ idz="3"/>
           </dev>
           <dev drv="33" addr="386" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016518"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{F40BDFB1-5E3E-4DB3-A720-D6C6EE92A230}"/>
             <inZ idz="6"/>
           </dev>
           <dev drv="33" addr="388" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004542"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{F3158359-5C5D-4FDA-BDD0-E8262D963341}"/>
             <inZ idz="6"/>
           </dev>
           <dev drv="33" addr="390" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000383"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{7A68C793-FA93-430F-A463-A94275C6993A}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="393" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037589"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{9EAD4433-EFB9-4AD5-B983-A10D95A47302}"/>
             <inZ idz="4"/>
           </dev>
           <dev drv="33" addr="395" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035982"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7B035D4D-7404-436B-8BCA-5F80DE742247}"/>
             <inZ idz="4"/>
           </dev>
           <dev drv="33" addr="406" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011780"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{6F1DF931-375B-4FB6-9DE6-112B83400F8C}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="408" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000124"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{CD511453-6FB3-405A-8771-27C9F93D0FAD}"/>
             <inZ idz="8"/>
           </dev>
           <dev drv="33" addr="513" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415984367"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{3DB84A30-0F44-4A73-A553-7E1E1748317B}"/>
             <inZ idz="49"/>
           </dev>
           <dev drv="33" addr="516" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415984505"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{FEA42463-CAA2-4DD6-8B43-F0D9A5B2BEF9}"/>
             <inZ idz="49"/>
           </dev>
           <dev drv="33" addr="519" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000378"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{2B458F30-D569-47BF-9F6E-450FB4C1A19E}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="522" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000415"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{8C11DE18-570E-4993-BD89-0033DA271776}"/>
             <inZ idz="48"/>
           </dev>
           <dev drv="33" addr="523" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016511"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{AF729FC7-800E-4B25-8C86-47485B89A40E}"/>
             <inZ idz="48"/>
           </dev>
           <dev drv="33" addr="525" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016517"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7160742B-D5BA-4D3E-9767-63B1D865CEF8}"/>
             <inZ idz="34"/>
           </dev>
           <dev drv="33" addr="527" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415037587"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{54E201A6-B7CC-4FD9-843D-27E2F2202514}"/>
             <inZ idz="34"/>
           </dev>
           <dev drv="33" addr="529" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000379"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{D16BCE43-99AA-4A19-9EE9-406ED2D71C16}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="530" name="ДИП за потолком">
+            <prop name="Config$SerialNum" value="416001678"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{6805BAE8-4531-4948-B3B6-094CC524D1E4}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="531" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000126"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{A50EA0F6-31B7-4672-8C82-ECFD648B7643}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="532" name="ДИП за потолком">
+            <prop name="Config$SerialNum" value="416001674"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{3C1613A4-186F-473B-B5EA-810628CDA2AF}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="533" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315016514"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{16B78F20-94F5-40DB-B9CE-C875A8BA1C2A}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="534" name="ДИП за потолком">
+            <prop name="Config$SerialNum" value="416001672"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{86D9F6E9-1777-401F-9BEC-0BB1B40FA589}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="535" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="713016743"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{9128DB08-4F26-440A-8A34-6E5C0CF5E450}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="536" name="ДИП за потолком">
+            <prop name="Config$SerialNum" value="416043433"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{E435FE62-20D8-4987-8A8F-2DD427FE8D8A}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="538" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000384"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{4C4D13E7-99BE-4EBC-A952-ABDEDF205C6D}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="539" name="ДИП за потолком">
+            <prop name="Config$SerialNum" value="416043431"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{CE139818-FCA7-4A4E-AC2A-4F8B6696D48B}"/>
             <inZ idz="50"/>
           </dev>
           <dev drv="33" addr="541" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000128"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{0C12B1E1-2960-40AC-9CDF-341EDC0BE85E}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="543" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000381"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{560BCB3D-4664-4B2F-9E79-59A01D1B97B7}"/>
             <inZ idz="32"/>
           </dev>
           <dev drv="33" addr="545" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000234"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{B311B851-6454-4359-9627-C58D2F87FD49}"/>
             <inZ idz="32"/>
           </dev>
           <dev drv="33" addr="547" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000233"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{36B17323-7026-48E0-B36A-90AE5A3E2567}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="549" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000236"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{B31E7626-17D8-488E-A9D8-0120BEC74D8F}"/>
             <inZ idz="36"/>
           </dev>
           <dev drv="33" addr="552" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035976"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D4D20D9F-A48F-4975-8F0B-7E26B3C925DD}"/>
             <inZ idz="36"/>
           </dev>
           <dev drv="33" addr="554" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004545"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{AE176955-CD1F-403A-A052-7FB6B29105C3}"/>
             <inZ idz="36"/>
           </dev>
           <dev drv="33" addr="556" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011775"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{636D05D8-3E12-4F91-807A-2044A70A9762}"/>
             <inZ idz="35"/>
           </dev>
           <dev drv="33" addr="558" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035881"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{B4099E5D-2635-47E7-A7B6-A408400D212E}"/>
             <inZ idz="35"/>
           </dev>
           <dev drv="33" addr="560" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000324"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{DEEA4B8D-D352-4FBD-9F66-46FD1154A179}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="562" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031591"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{85C2D082-A963-4D55-84BD-9085EF369583}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="564" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000237"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{8871D162-2C42-4871-BE72-EFB91993EC11}"/>
             <inZ idz="38"/>
           </dev>
           <dev drv="33" addr="566" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215004547"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D38DE1EE-49A4-4110-820D-E1BD4B805B74}"/>
             <inZ idz="38"/>
           </dev>
           <dev drv="33" addr="568" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000235"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{483FB3E9-C747-4931-8AF3-D27485169E5E}"/>
             <inZ idz="38"/>
           </dev>
           <dev drv="33" addr="570" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000240"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{9A9737DF-6E93-453C-840C-D90CD787A9B0}"/>
             <inZ idz="37"/>
           </dev>
           <dev drv="33" addr="572" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="215011776"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{B515C16F-B24B-4303-88B2-34838ED9B73C}"/>
             <inZ idz="37"/>
           </dev>
           <dev drv="33" addr="574" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000125"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{41013397-F636-4230-9FC3-EC1519F7F27B}"/>
             <inZ idz="39"/>
           </dev>
           <dev drv="33" addr="576" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035883"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D96584FD-8D62-4FCA-8C3E-1DAC8970828A}"/>
             <inZ idz="39"/>
           </dev>
           <dev drv="33" addr="578" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035977"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7EFCACBF-49D8-4B64-97FC-15427B48747D}"/>
             <inZ idz="40"/>
           </dev>
           <dev drv="33" addr="581" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000328"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{B13F5462-17F3-44F3-AE97-9F7A0DD9587E}"/>
             <inZ idz="40"/>
           </dev>
           <dev drv="33" addr="583" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000132"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{94FCF38E-2BAC-4B68-8AD5-C62A11BFBDCF}"/>
             <inZ idz="40"/>
           </dev>
           <dev drv="33" addr="585" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035880"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{4601E1B5-49A2-4DDC-8EAE-05A88C00ED9C}"/>
             <inZ idz="31"/>
           </dev>
           <dev drv="33" addr="588" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035885"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{6EE3F126-977F-43AC-9384-542408E2A1D0}"/>
             <inZ idz="33"/>
           </dev>
           <dev drv="33" addr="590" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="416043398"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{E1C0B147-9EA6-48B8-8F87-026D0E83BA1E}"/>
             <inZ idz="33"/>
           </dev>
           <dev drv="33" addr="592" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035983"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{56367A2A-7712-4A18-B5B5-168E8360EEBD}"/>
             <inZ idz="30"/>
           </dev>
           <dev drv="33" addr="595" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000325"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{52EDC562-0AB6-4C0C-AE48-7909CD20C7E4}"/>
             <inZ idz="30"/>
           </dev>
           <dev drv="33" addr="597" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000416"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{4BABA5D7-B33D-4C02-95BC-3222B8F45B5E}"/>
             <inZ idz="30"/>
           </dev>
           <dev drv="33" addr="601" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000409"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{D3791695-2919-4473-BF98-E81667CE499B}"/>
             <inZ idz="22"/>
           </dev>
           <dev drv="33" addr="603" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035887"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{A0626A87-8837-4140-8BA6-AD4DF2995ED6}"/>
             <inZ idz="22"/>
           </dev>
           <dev drv="33" addr="605" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035981"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{EE1AAB7E-5F4C-4770-BA53-6F9FEC7DE4BA}"/>
             <inZ idz="21"/>
           </dev>
           <dev drv="33" addr="607" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000127"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{41EB0718-C4C3-40FC-87E1-84934B770229}"/>
             <inZ idz="21"/>
           </dev>
           <dev drv="33" addr="610" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000123"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{60BFDC1A-BF76-4B61-BA17-FC43725E26CC}"/>
             <inZ idz="20"/>
           </dev>
           <dev drv="33" addr="612" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000382"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{B699C2E4-F70F-4795-8A4C-3E9600FF32FD}"/>
             <inZ idz="20"/>
           </dev>
           <dev drv="33" addr="614" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035884"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{7DDD663E-2AA0-4720-A5AF-7D42702F0B97}"/>
             <inZ idz="19"/>
           </dev>
           <dev drv="33" addr="616" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031598"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{693BDC39-09A9-47D5-BE6B-0B44D0172D9A}"/>
             <inZ idz="19"/>
           </dev>
           <dev drv="33" addr="618" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000436"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{125D7F42-7E0A-4CA8-A1CA-533792609E88}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="621" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031597"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{D4CF16D0-E4AD-4BA7-96DB-02239FBC3873}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="623" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000326"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{84742BF5-9063-4B2A-B960-37B02B4FBD57}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="625" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031596"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{1089D0C5-DA52-458C-9EDE-96117D3268CE}"/>
             <inZ idz="25"/>
           </dev>
           <dev drv="33" addr="627" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000433"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{BFFE70F5-D947-4D0C-904E-0E741DE8C608}"/>
             <inZ idz="25"/>
           </dev>
           <dev drv="33" addr="629" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000438"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{75976802-C655-427C-9AD7-7EF1037939E9}"/>
             <inZ idz="24"/>
           </dev>
           <dev drv="33" addr="631" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000226"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{09D70C5D-EDEA-4509-8F68-D528BC5686E4}"/>
             <inZ idz="24"/>
           </dev>
           <dev drv="33" addr="633" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315012429"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{E46993BE-5324-47C9-9844-A66AD6417F45}"/>
             <inZ idz="26"/>
           </dev>
           <dev drv="33" addr="635" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000437"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{15E6E3E3-6203-4B26-92D3-0866AD69F4C1}"/>
             <inZ idz="26"/>
           </dev>
           <dev drv="33" addr="637" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000440"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{B36DBB24-9FC1-4511-A2F7-29DE2009547B}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="639" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000321"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{691AE6AC-4AE1-4263-86A3-C24B55BDA457}"/>
             <inZ idz="27"/>
           </dev>
           <dev drv="33" addr="641" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000323"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{D5DC5C18-8653-4CD4-9A19-F1ACFC9E707B}"/>
             <inZ idz="27"/>
           </dev>
           <dev drv="33" addr="643" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="315012431"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{6825B58C-CF5F-41E9-97CE-1E2DC4ED6372}"/>
             <inZ idz="28"/>
           </dev>
           <dev drv="33" addr="645" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031594"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{1E204ABB-D7EB-4DB1-9615-AD8216546D54}"/>
             <inZ idz="28"/>
           </dev>
           <dev drv="33" addr="647" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415031595"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{9992AEE3-BBAF-4A66-A43E-0FE25D349245}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="649" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000136"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{A31CF5E3-411B-4EE4-89B3-510E702FFC30}"/>
             <inZ idz="29"/>
           </dev>
           <dev drv="33" addr="651" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000133"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{AE06B0EE-2ECF-475E-9294-CC0F1DA3FE03}"/>
             <inZ idz="29"/>
           </dev>
           <dev drv="33" addr="653" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000434"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{450BA167-F760-408B-B2B8-B5827A2A5315}"/>
             <inZ idz="23"/>
           </dev>
           <dev drv="33" addr="674" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000134"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{12C1519E-C6AB-4B12-A8F5-921121D0A07E}"/>
             <inZ idz="51"/>
           </dev>
           <dev drv="33" addr="675" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="415035882"/>
+            <prop name="Config$SoftVersion" value="1560"/>
             <prop name="INT$DEV_GUID" type="String" value="{C4F4CE4D-FF3C-466E-A239-80E48C270A7D}"/>
             <inZ idz="51"/>
           </dev>
           <dev drv="33" addr="679" name="ДИП потолочный">
+            <prop name="Config$SerialNum" value="616000135"/>
+            <prop name="Config$SoftVersion" value="1297"/>
             <prop name="INT$DEV_GUID" type="String" value="{3B18092B-B831-40D8-86A4-C5E0E3DADF92}"/>
             <inZ idz="23"/>
           </dev>
@@ -2750,139 +3023,139 @@
           <dev drv="16" addr="1">
             <prop name="INT$DEV_GUID" type="String" value="{14E3E09E-374B-4A69-9D6F-E6574871DD24}"/>
             <dev drv="17" addr="1">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{4D13A55D-8F79-43F7-B230-EF8BD47A19F9}"/>
             </dev>
             <dev drv="17" addr="2">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{F2C48F2B-C4F1-4CF2-BED2-354D65F7BFD9}"/>
             </dev>
             <dev drv="17" addr="3">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{C9C97295-E8D6-4178-BEC7-DF023547CC36}"/>
             </dev>
             <dev drv="17" addr="4">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{F8A06F23-4B6E-499E-9945-BFB4B5D8AAC9}"/>
             </dev>
             <dev drv="17" addr="5">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{599757D9-D122-4B27-BF58-F254C24776E3}"/>
             </dev>
             <dev drv="17" addr="6">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{C098212D-4075-4212-963C-29E091666092}"/>
             </dev>
             <dev drv="17" addr="7">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{FB1EE8CF-41C6-498F-84CB-51DA4360F9E2}"/>
             </dev>
             <dev drv="17" addr="8">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{24EB4E36-255C-4074-AC04-92B345AE690D}"/>
             </dev>
             <dev drv="17" addr="9">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{61A23FDF-C80C-49A9-B8A1-4119AD851C49}"/>
             </dev>
             <dev drv="17" addr="10">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{DBA40C48-F562-4A15-8247-D70462D6A440}"/>
             </dev>
             <dev drv="17" addr="11">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{8C165FFF-7465-466C-8A96-B0167196CCAF}"/>
             </dev>
             <dev drv="17" addr="12">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{12A74A0F-4464-4CD3-8E41-DDD49977C189}"/>
             </dev>
             <dev drv="17" addr="13">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{4E3E5975-4CDE-41C3-8515-86152D6859CD}"/>
             </dev>
             <dev drv="17" addr="14">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{450F244C-CFB7-4B0C-8E95-F58B0B17C499}"/>
             </dev>
             <dev drv="17" addr="15">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2644156C-887A-4044-B593-E020778136A6}"/>
             </dev>
             <dev drv="17" addr="16">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{14BD4FD9-1BD7-4FE2-8A92-31A4E08FBD20}"/>
             </dev>
             <dev drv="17" addr="17">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{CB561D0D-DCAE-448F-8B09-524B7B94FA7F}"/>
             </dev>
             <dev drv="17" addr="18">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{B6932513-4864-4ADC-9F27-326D391DCEAC}"/>
             </dev>
             <dev drv="17" addr="19">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{D7CFA2AE-B7E9-421F-AA63-0EC3DA08D0AB}"/>
             </dev>
             <dev drv="17" addr="20">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{ADAE9D3B-6FEC-4A34-8A0D-4994E53D87E1}"/>
             </dev>
             <dev drv="17" addr="21">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{F0A66F1D-DE76-41A6-B217-1BBA79B24D32}"/>
             </dev>
             <dev drv="17" addr="22">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{FB0D1B00-83FD-4BD1-BBA2-A12F468FB7C1}"/>
             </dev>
             <dev drv="17" addr="23">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24"/>
               <prop name="INT$DEV_GUID" type="String" value="{1847F6AE-043D-4816-B44C-4723801F9778}"/>
             </dev>
             <dev drv="17" addr="24">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{DF55D0BC-DEEA-4CAE-8EAC-A111C9BD2983}"/>
             </dev>
             <dev drv="17" addr="25">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{8D721D7A-C4E1-462E-AAC2-0A977C41AD53}"/>
             </dev>
             <dev drv="17" addr="26">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{375B346D-F4C8-49E5-8B98-4AC4C80BAA1A}"/>
             </dev>
             <dev drv="17" addr="27">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{8B218B57-9147-43A8-ABD0-036B92D193A9}"/>
             </dev>
             <dev drv="17" addr="28">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{57870D6D-902D-4CEC-B29B-D684C48CA601}"/>
             </dev>
             <dev drv="17" addr="29">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{63DD8E0B-EE5B-4DE3-8CC4-C06AFFD46598}"/>
             </dev>
             <dev drv="17" addr="30">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2DD76350-0876-4237-9A57-FF5493B3DD24}"/>
             </dev>
             <dev drv="17" addr="31">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{CA82B113-33C1-46A6-9476-CCFB3D98B38F}"/>
             </dev>
             <dev drv="17" addr="32">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{4078DE1A-67E2-4AF7-9ABE-E54F95C6ABEE}"/>
             </dev>
             <dev drv="17" addr="33">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{27F62822-BC6D-48C1-8BD6-0418D08E3853}"/>
             </dev>
             <dev drv="17" addr="34">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{28403812-F49E-494E-92D0-50A86F860E72}"/>
             </dev>
             <dev drv="17" addr="35">
@@ -2890,43 +3163,43 @@
               <prop name="INT$DEV_GUID" type="String" value="{46ABCE07-1E77-4AFA-9878-E5224A24B543}"/>
             </dev>
             <dev drv="17" addr="36">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{08F461D9-3577-4A05-AAB8-B62083185EAB}"/>
             </dev>
             <dev drv="17" addr="37">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{6D4321F3-DB37-4156-AAEA-60E912CE80BA}"/>
             </dev>
             <dev drv="17" addr="38">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{46B472F1-DEE5-42A5-B317-EE3CB7FC9FCF}"/>
             </dev>
             <dev drv="17" addr="39">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{AA5973BE-6F6B-4DA9-B49A-9A9174B080AC}"/>
             </dev>
             <dev drv="17" addr="40">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{86B1C8CD-F30B-42C4-8F41-BBA9BE191AE7}"/>
             </dev>
             <dev drv="17" addr="41">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2F7903FA-F918-4AF3-8134-503B40183DB2}"/>
             </dev>
             <dev drv="17" addr="42">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2E240D93-1CB4-43BF-ABDC-5CAC053948B0}"/>
             </dev>
             <dev drv="17" addr="43">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;52&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{FF5C03D5-AA6C-443B-BF90-195FF1F6EABE}"/>
             </dev>
             <dev drv="17" addr="44">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;53&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;52&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{689A37C9-D33A-41E4-A331-EF2B3B08B1C0}"/>
             </dev>
             <dev drv="17" addr="45">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;53&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{53D3D06D-BBF0-40F2-86B9-92EF38F662A3}"/>
             </dev>
             <dev drv="17" addr="46">
