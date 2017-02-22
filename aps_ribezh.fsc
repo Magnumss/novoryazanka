@@ -170,7 +170,7 @@
     <param name="Skipped" type="Bool" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
   </zone>
-  <zone idx="6" no="8" name="Бытовое пом. (109)" idZones="0">
+  <zone idx="6" no="8" name="Служебное пом. (109)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
@@ -222,7 +222,7 @@
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
-  <zone idx="10" no="15" name="Тамбур разд. (124)" idZones="0">
+  <zone idx="10" no="15" name="Тамбур разд.МГН(124)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -235,11 +235,9 @@
     <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
-  <zone idx="11" no="16" name="Раздевальная (125)" idZones="0">
+  <zone idx="11" no="16" name="Раздевалка МГН (125)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
@@ -247,8 +245,10 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
-  <zone idx="12" no="17" name="Инвентарная (129)" idZones="0">
+  <zone idx="12" no="17" name="Инвентарная зал(129)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Skipped" type="Bool" value="0"/>
@@ -261,7 +261,7 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
   </zone>
-  <zone idx="13" no="18" name="Тамбур разд. (130)" idZones="0">
+  <zone idx="13" no="18" name="Тамбур разд.1 (130)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Delay" type="Int64" value="0"/>
@@ -274,7 +274,7 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="14" no="19" name="Раздевальная (131)" idZones="0">
+  <zone idx="14" no="19" name="Раздевалка 1 (131)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
@@ -303,8 +303,6 @@
   <zone idx="16" no="21" name="Электрощитовая (136)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
@@ -312,6 +310,8 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="17" no="22" name="Игровой зал (137)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -326,7 +326,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="18" no="23" name="Тамбур раздев. (138)" desc="Санузел для поля" idZones="0">
+  <zone idx="18" no="23" name="Рааздев. поле (138)" desc="Санузел для поля" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
@@ -339,7 +339,7 @@
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
   </zone>
-  <zone idx="19" no="24" name="Техпомещение (201)" idZones="0">
+  <zone idx="19" no="24" name="Сл. помещение (201)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -352,7 +352,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="20" no="25" name="Каб.специалистов(202" desc="202" idZones="0">
+  <zone idx="20" no="25" name="Директор СШ (202)" desc="Директор спортшколы" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="AutoSet" type="Int64" value="0"/>
@@ -365,7 +365,7 @@
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitTime" type="Int" value="0"/>
   </zone>
-  <zone idx="21" no="26" name="Тренерская (203)" idZones="0">
+  <zone idx="21" no="26" name="Тренерская А (203)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -378,7 +378,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
-  <zone idx="22" no="27" name="Тренерская (204)" idZones="0">
+  <zone idx="22" no="27" name="Тренерская Б (204)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
@@ -391,9 +391,10 @@
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
   </zone>
-  <zone idx="23" no="28" name="Коридор 2эт. (205)" idZones="0">
+  <zone idx="23" no="28" name="Коридор 2эт.адм(205)" desc="Административное крыло" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
@@ -402,7 +403,6 @@
     <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="24" no="29" name="Судейская (206)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -417,7 +417,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="Delay" type="Int64" value="0"/>
   </zone>
-  <zone idx="25" no="30" name="Кабинет дир. (211)" desc="Директор" idZones="0">
+  <zone idx="25" no="30" name="Заведующий СК (211)" desc="Заведующий спорткомплекса" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
@@ -495,7 +495,7 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
-  <zone idx="31" no="37" name="Коридор 2эт. (219)" idZones="0">
+  <zone idx="31" no="37" name="Коридор 2эт. (219)" desc="Коридор 2 этаж раздевалки" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
@@ -508,7 +508,7 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
   </zone>
-  <zone idx="32" no="38" name="Тамбур разд. (220)" idZones="0">
+  <zone idx="32" no="38" name="Тамбур разд.3 (220)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Delay" type="Int64" value="0"/>
@@ -521,7 +521,7 @@
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
-  <zone idx="33" no="39" name="Раздевальная (221)" idZones="0">
+  <zone idx="33" no="39" name="Раздевалка N3 (221)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="AutoSet" type="Int64" value="0"/>
@@ -534,7 +534,7 @@
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="34" no="43" name="Инвентарная (228)" idZones="0">
+  <zone idx="34" no="43" name="Инвентарная (228)" desc="Инвентарная тренажерного зала" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Skipped" type="Bool" value="0"/>
@@ -547,7 +547,7 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="35" no="44" name="Тамбур разд. (229)" idZones="0">
+  <zone idx="35" no="44" name="Тамбур разд.4 (229)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
@@ -560,7 +560,7 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="36" no="45" name="Раздевальная (230)" idZones="0">
+  <zone idx="36" no="45" name="Раздевалка N4 (230)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -573,7 +573,7 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
-  <zone idx="37" no="46" name="Тамбур разд. (233)" idZones="0">
+  <zone idx="37" no="46" name="Тамбур разд.5 (233)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -586,7 +586,7 @@
     <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
-  <zone idx="38" no="47" name="Раздевальная (234)" idZones="0">
+  <zone idx="38" no="47" name="Раздевалка N5 (234)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -599,7 +599,7 @@
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
-  <zone idx="39" no="48" name="Тамбур разд. (237)" idZones="0">
+  <zone idx="39" no="48" name="Тамбур разд.6 (237)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Skipped" type="Bool" value="0"/>
@@ -612,7 +612,7 @@
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="40" no="49" name="Раздевальная (238)" idZones="0">
+  <zone idx="40" no="49" name="Раздевалка N6 (238)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
@@ -690,7 +690,7 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
-  <zone idx="46" no="1" name="Тамбур вход (101)" idZones="0">
+  <zone idx="46" no="1" name="Тамбур Гл.вход (101)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
@@ -703,7 +703,7 @@
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="47" no="10" name="Гардероб буфет (115)" idZones="0">
+  <zone idx="47" no="10" name="Служ.пом.буфет (115)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
@@ -716,7 +716,7 @@
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
-  <zone idx="48" no="40" name="Пож.безоп.зона (225)" idZones="0">
+  <zone idx="48" no="40" name="Зона безоп.МГН(225)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ZoneType" type="Int" value="0"/>
@@ -729,7 +729,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitTime" type="Int" value="0"/>
   </zone>
-  <zone idx="49" no="41" name="Коридор  МГН (226)" idZones="0">
+  <zone idx="49" no="41" name="Коридор  МГН (226)" desc="Коридор зоны безопасности МГН" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
@@ -1381,28 +1381,32 @@
           <dev drv="77" addr="436">
             <prop name="INT$DEV_GUID" type="String" value="{37209017-43A4-41CE-9A7C-7D1A96C6B081}"/>
             <dev drv="31" addr="0" name="Пищалки 1,1">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{F1D96FEA-F614-4FDA-A9F4-8F72EFA0054A}"/>
             </dev>
             <dev drv="31" addr="1" name="Пищалки 1,2">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{4E1924D1-FF69-4333-90B0-D1E812C88A72}"/>
             </dev>
             <dev drv="31" addr="2" name="Пищалки 1,3 Зал">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{E55EDADE-DD87-4048-9648-A61F6053F0AA}"/>
             </dev>
             <dev drv="31" addr="3" name="Пищалки 1,4 Зал">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
@@ -1459,14 +1463,16 @@
           <dev drv="75" addr="446">
             <prop name="INT$DEV_GUID" type="String" value="{755E3062-055C-4D33-9B26-6296B9AEC650}"/>
             <dev drv="31" addr="0" name="Пищалки 3,1">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{450AA6B4-807C-4FD1-B4F4-62BE1F766341}"/>
             </dev>
             <dev drv="31" addr="1" name="Пищалки 3,2">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
@@ -3101,11 +3107,11 @@
               <prop name="INT$DEV_GUID" type="String" value="{F0A66F1D-DE76-41A6-B217-1BBA79B24D32}"/>
             </dev>
             <dev drv="17" addr="22">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{FB0D1B00-83FD-4BD1-BBA2-A12F468FB7C1}"/>
             </dev>
             <dev drv="17" addr="23">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{1847F6AE-043D-4816-B44C-4723801F9778}"/>
             </dev>
             <dev drv="17" addr="24">
@@ -3137,75 +3143,79 @@
               <prop name="INT$DEV_GUID" type="String" value="{2DD76350-0876-4237-9A57-FF5493B3DD24}"/>
             </dev>
             <dev drv="17" addr="31">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{CA82B113-33C1-46A6-9476-CCFB3D98B38F}"/>
             </dev>
             <dev drv="17" addr="32">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{4078DE1A-67E2-4AF7-9ABE-E54F95C6ABEE}"/>
             </dev>
             <dev drv="17" addr="33">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{27F62822-BC6D-48C1-8BD6-0418D08E3853}"/>
             </dev>
             <dev drv="17" addr="34">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{28403812-F49E-494E-92D0-50A86F860E72}"/>
             </dev>
             <dev drv="17" addr="35">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{46ABCE07-1E77-4AFA-9878-E5224A24B543}"/>
             </dev>
             <dev drv="17" addr="36">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{08F461D9-3577-4A05-AAB8-B62083185EAB}"/>
             </dev>
             <dev drv="17" addr="37">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{6D4321F3-DB37-4156-AAEA-60E912CE80BA}"/>
             </dev>
             <dev drv="17" addr="38">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{46B472F1-DEE5-42A5-B317-EE3CB7FC9FCF}"/>
             </dev>
             <dev drv="17" addr="39">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{AA5973BE-6F6B-4DA9-B49A-9A9174B080AC}"/>
             </dev>
             <dev drv="17" addr="40">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{86B1C8CD-F30B-42C4-8F41-BBA9BE191AE7}"/>
             </dev>
             <dev drv="17" addr="41">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2F7903FA-F918-4AF3-8134-503B40183DB2}"/>
             </dev>
             <dev drv="17" addr="42">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2E240D93-1CB4-43BF-ABDC-5CAC053948B0}"/>
             </dev>
             <dev drv="17" addr="43">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{FF5C03D5-AA6C-443B-BF90-195FF1F6EABE}"/>
             </dev>
             <dev drv="17" addr="44">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;52&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{689A37C9-D33A-41E4-A331-EF2B3B08B1C0}"/>
             </dev>
             <dev drv="17" addr="45">
-              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;53&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{53D3D06D-BBF0-40F2-86B9-92EF38F662A3}"/>
             </dev>
             <dev drv="17" addr="46">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{1C883736-4F4F-481D-83F5-EC124B162B0C}"/>
             </dev>
             <dev drv="17" addr="47">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{43475C34-8227-4AF8-BE3D-0DE2D84FBFB4}"/>
             </dev>
             <dev drv="17" addr="48">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{7536AE19-BDD0-4375-B45D-22A9BB73D97F}"/>
             </dev>
             <dev drv="17" addr="49">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{3927E245-1D52-4300-B305-98D73150392D}"/>
             </dev>
             <dev drv="17" addr="50">
@@ -3215,9 +3225,11 @@
           <dev drv="16" addr="2">
             <prop name="INT$DEV_GUID" type="String" value="{C3863E44-AE3F-462C-9076-D42403FEE676}"/>
             <dev drv="17" addr="1">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;52&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{86582C93-BAF6-4695-9AC7-A7EA5E5883E9}"/>
             </dev>
             <dev drv="17" addr="2">
+              <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;0&quot;&gt;&lt;zone&gt;53&lt;/zone&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{83DE10E6-8122-4C98-93B1-DC598B777C17}"/>
             </dev>
             <dev drv="17" addr="3">
