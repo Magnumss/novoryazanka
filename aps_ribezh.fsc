@@ -2099,7 +2099,7 @@
           </dev>
           <dev drv="65" addr="431" name="од-3">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;and&quot;&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{23CB0FF9-FB98-41CA-AEA5-C32A85F0D149}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="Config$TimeOut" value="0"/>
             <prop name="Config$SerialNum" value="5161450"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{5A9264E8-95C5-40D6-AE02-E2D2ECD5495D}"/>
@@ -2133,7 +2133,7 @@
               <inZ idz="44"/>
             </dev>
             <dev drv="54" addr="2">
-              <prop name="Config$Config" value="0"/>
+              <prop name="Config$Config" value="4"/>
               <prop name="Config$SerialNum" value="4294967295"/>
               <prop name="Config$SoftVersion" value="259"/>
               <prop name="INT$DEV_GUID" type="String" value="{23CB0FF9-FB98-41CA-AEA5-C32A85F0D149}"/>
