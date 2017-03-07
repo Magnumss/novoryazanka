@@ -277,6 +277,7 @@
   <zone idx="14" no="19" name="Раздевалка 1 (131)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
@@ -285,7 +286,6 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="15" no="20" name="ИТП (135)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -326,7 +326,7 @@
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
-  <zone idx="18" no="23" name="Рааздев. поле (138)" desc="Санузел для поля" idZones="0">
+  <zone idx="18" no="23" name="Раздев. поле (138)" desc="Санузел для поля" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
@@ -379,21 +379,23 @@
     <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="22" no="27" name="Тренерская Б (204)" idZones="0">
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="23" no="28" name="Коридор 2эт.адм(205)" desc="Административное крыло" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -401,8 +403,6 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="24" no="29" name="Судейская (206)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -667,7 +667,6 @@
   <zone idx="44" no="53" name="Гараж" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
@@ -676,6 +675,7 @@
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="45" no="11" name="Тамбур буфет (118)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -895,7 +895,7 @@
             <prop name="Config$SoftVersion" value="262"/>
             <prop name="INT$DEV_GUID" type="String" value="{B80A7E73-2FEB-4EB8-BAD0-FD5CB858F4CD}"/>
           </dev>
-          <dev drv="56" addr="279" name="Клапан ПДВ">
+          <dev drv="56" addr="279" name="Клапан ПД1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -984,7 +984,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{BFA1B036-99A5-4155-BA99-A7F2B613799C}"/>
             <inZ idz="8"/>
           </dev>
-          <dev drv="56" addr="309" name="Клапан ДУ">
+          <dev drv="56" addr="309" name="Клапан ДУ1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -1161,7 +1161,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{2A514099-EEEF-42E2-80F4-CBD0D40CCA20}"/>
             <inZ idz="11"/>
           </dev>
-          <dev drv="56" addr="356" name="Клапан ДУ">
+          <dev drv="56" addr="356" name="Клапан ДУ1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -1542,7 +1542,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{964CD8CD-BEB4-4283-BA7A-159DE0B52CF9}"/>
             <inZ idz="34"/>
           </dev>
-          <dev drv="56" addr="540" name="Клапан ПДВ">
+          <dev drv="56" addr="540" name="Клапан ПД1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -1718,7 +1718,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{9F100B5E-7293-4B11-B3F2-E9710522E4C7}"/>
             <inZ idz="30"/>
           </dev>
-          <dev drv="56" addr="594" name="Клапан ДУ">
+          <dev drv="56" addr="594" name="Клапан ДУ1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -1812,7 +1812,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{FCF651C7-1702-4EAB-9E9C-5FD5C6A707AD}"/>
             <inZ idz="23"/>
           </dev>
-          <dev drv="56" addr="620" name="Клапан ДУ">
+          <dev drv="56" addr="620" name="Клапан ДУ2">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -1964,7 +1964,7 @@
             <prop name="INT$DEV_GUID" type="String" value="{9C9AB46C-5D46-47C0-8E3D-5052D19E6ECA}"/>
             <inZ idz="23"/>
           </dev>
-          <dev drv="56" addr="681" name="Клапан ПДВ">
+          <dev drv="56" addr="681" name="Клапан ПД2">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -2017,7 +2017,7 @@
               <prop name="INT$DEV_GUID" type="String" value="{5FD27DAC-E809-4481-87A0-706EB387A37F}"/>
             </dev>
           </dev>
-          <dev drv="56" addr="524" name="Клапан ПДВ">
+          <dev drv="56" addr="524" name="Клапан ПД3">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOn" value="70"/>
             <prop name="Config$TimeOff" value="70"/>
@@ -2064,29 +2064,30 @@
             <inZ idz="0"/>
           </dev>
           <dev drv="65" addr="427" name="ДУ-1">
-            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+            <prop name="Config$TimeOut" value="50"/>
+            <prop name="Config$RunningTime" value="0"/>
             <prop name="Config$SerialNum" value="4161062"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{9C2E3291-3395-4F68-BAFE-F4FA09686998}"/>
           </dev>
           <dev drv="65" addr="428" name="ДУ-2">
-            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+            <prop name="Config$TimeOut" value="50"/>
             <prop name="Config$SerialNum" value="4161162"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{6F6EAB90-05CA-40E0-A70E-C199FD2CB323}"/>
           </dev>
           <dev drv="65" addr="429" name="ПД-1">
-            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+            <prop name="Config$TimeOut" value="70"/>
             <prop name="Config$SerialNum" value="1160023"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{B1A56950-849B-4D57-98FC-DDD485B58C87}"/>
           </dev>
           <dev drv="65" addr="430" name="ПД-2">
-            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+            <prop name="Config$TimeOut" value="70"/>
             <prop name="Config$SerialNum" value="7151435"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{834DFD23-FEC3-425E-ACB2-A5C3F6702513}"/>
@@ -2104,7 +2105,7 @@
           </dev>
           <dev drv="65" addr="433" name="ПД-5">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="Config$TimeOut" value="70"/>
             <prop name="Config$SerialNum" value="10162934"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{41DAC747-D55F-4655-BB8C-9D3D6084A8AA}"/>
@@ -2167,7 +2168,7 @@
           </dev>
           <dev drv="65" addr="432" name="ПД-4">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
-            <prop name="Config$TimeOut" value="60"/>
+            <prop name="Config$TimeOut" value="70"/>
             <prop name="Config$SerialNum" value="6161900"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{0956B706-73A8-4340-A2F5-67A6B4791706}"/>
@@ -3867,7 +3868,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{B80A7E73-2FEB-4EB8-BAD0-FD5CB858F4CD}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2D66798E-E0E2-43C2-82B1-449485871014}"/>
             </dev>
-            <dev drv="17" addr="8" name="Клапан ПДВ">
+            <dev drv="17" addr="8" name="Клапан ПД1">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{A01011F1-7738-4019-9080-B14B94AF5517}"/>
             </dev>
@@ -3875,7 +3876,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{52818D02-920F-42B1-9A1D-392823930A85}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{ADC1AFA2-2783-49EB-9DF6-982B5764C9FB}"/>
             </dev>
-            <dev drv="17" addr="10" name="Клапан ДУ">
+            <dev drv="17" addr="10" name="Клапан ДУ1">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{AA704D86-A2C3-40CD-BBBA-9900B54A62EB}"/>
             </dev>
@@ -3887,7 +3888,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{FB1DF0AE-2C14-4FF9-A918-8BF4CED418CB}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{B20C92ED-B36A-420B-B787-A55E0E53D8C8}"/>
             </dev>
-            <dev drv="17" addr="13" name="Клапан ДУ">
+            <dev drv="17" addr="13" name="Клапан ДУ1">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{0EC62813-D299-4758-A22C-4D145BAF4436}"/>
             </dev>
@@ -3931,11 +3932,11 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{B812FBC3-117B-43BD-9739-DA844D2CB98E}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{F74F310D-B9F6-44F8-B678-8E60D0579068}"/>
             </dev>
-            <dev drv="17" addr="24" name="Клапан ПДВ">
+            <dev drv="17" addr="24" name="Клапан ПД3">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{EAD9F20B-C35D-4994-824A-3B9A5E5EDC3C}"/>
             </dev>
-            <dev drv="17" addr="25" name="Клапан ПДВ">
+            <dev drv="17" addr="25" name="Клапан ПД1">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{12E11F04-058A-4161-829F-9A7E679E8E69}"/>
             </dev>
@@ -3947,7 +3948,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{98BCF36E-247E-4B75-8665-1B147F2D7D7F}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{7E19970F-4DF0-4FAC-85B5-FE2D5E9781E8}"/>
             </dev>
-            <dev drv="17" addr="28" name="Клапан ДУ">
+            <dev drv="17" addr="28" name="Клапан ДУ1">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{2118F5A5-2CD2-471C-B963-412B8B2700B9}"/>
             </dev>
@@ -3955,7 +3956,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{07A690D6-C091-4361-80D5-8098A43B0A99}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{B0CD629B-6933-4FBA-9B0E-4C4345747145}"/>
             </dev>
-            <dev drv="17" addr="30" name="Клапан ДУ">
+            <dev drv="17" addr="30" name="Клапан ДУ2">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{28E8511B-83A0-49C7-B293-7CA7F451EC63}"/>
             </dev>
@@ -3975,7 +3976,7 @@
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{2AA6E69C-8A1B-40C4-92F5-DDA3B4AF8814}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{EF65B8D3-EBE4-40C0-A27D-93B084B9FBA8}"/>
             </dev>
-            <dev drv="17" addr="35" name="Клапан ПДВ">
+            <dev drv="17" addr="35" name="Клапан ПД2">
               <prop name="C4D7C1BE-02A3-4849-9717-7A3C01C23A24" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;LEDProperties type=&quot;1&quot;&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot; state1=&quot;1&quot; state2=&quot;2&quot; state3=&quot;6&quot; state4=&quot;4&quot;/&gt;&lt;/LEDProperties&gt;&#10;"/>
               <prop name="INT$DEV_GUID" type="String" value="{F308CC09-AF5C-4F15-8501-7316654FC6F1}"/>
             </dev>
