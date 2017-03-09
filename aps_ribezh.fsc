@@ -108,15 +108,15 @@
   <zone idx="1" no="3" name="Помещение охр. (103)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="2" no="4" name="Инвентарная (104)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -128,8 +128,8 @@
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="3" no="5" name="Kабинет врача (105)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -149,52 +149,52 @@
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="5" no="7" name="Гардероб (108)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="6" no="8" name="Служебное пом. (109)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="7" no="9" name="Буфет (113)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="8" no="13" name="Коридор 1эт. (121)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -225,26 +225,26 @@
   <zone idx="10" no="15" name="Тамбур разд.МГН(124)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="11" no="16" name="Раздевалка МГН (125)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
@@ -264,15 +264,15 @@
   <zone idx="13" no="18" name="Тамбур разд.1 (130)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="14" no="19" name="Раздевалка 1 (131)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -284,8 +284,8 @@
     <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="15" no="20" name="ИТП (135)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -303,262 +303,262 @@
   <zone idx="16" no="21" name="Электрощитовая (136)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="17" no="22" name="Игровой зал (137)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="1"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="18" no="23" name="Раздев. поле (138)" desc="Санузел для поля" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="19" no="24" name="Сл. помещение (201)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="20" no="25" name="Директор СШ (202)" desc="Директор спортшколы" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="21" no="26" name="Тренерская А (203)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="22" no="27" name="Тренерская Б (204)" idZones="0">
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
   </zone>
   <zone idx="23" no="28" name="Коридор 2эт.адм(205)" desc="Административное крыло" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="24" no="29" name="Судейская (206)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="25" no="30" name="Заведующий СК (211)" desc="Заведующий спорткомплекса" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="26" no="31" name="Приемная (212)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="27" no="32" name="Каб зам дир (213)" desc="Заместитель директора" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
   </zone>
   <zone idx="28" no="33" name="Кабинет ИТР (214)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="29" no="34" name="Методкабинет (215)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="30" no="36" name="Коридор лифт (218)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="31" no="37" name="Коридор 2эт. (219)" desc="Коридор 2 этаж раздевалки" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="32" no="38" name="Тамбур разд.3 (220)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="33" no="39" name="Раздевалка N3 (221)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
   </zone>
   <zone idx="34" no="43" name="Инвентарная (228)" desc="Инвентарная тренажерного зала" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="35" no="44" name="Тамбур разд.4 (229)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="36" no="45" name="Раздевалка N4 (230)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -569,8 +569,8 @@
     <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="37" no="46" name="Тамбур разд.5 (233)" idZones="0">
@@ -582,8 +582,8 @@
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ExitTime" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="38" no="47" name="Раздевалка N5 (234)" idZones="0">
@@ -595,8 +595,8 @@
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="39" no="48" name="Тамбур разд.6 (237)" idZones="0">
@@ -605,22 +605,22 @@
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="40" no="49" name="Раздевалка N6 (238)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
@@ -629,24 +629,24 @@
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
   </zone>
   <zone idx="42" no="52" name="КПП" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="1"/>
@@ -654,14 +654,14 @@
   <zone idx="43" no="54" name="Авария 12В ИПДЛ" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="6"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="6"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
   <zone idx="44" no="53" name="Гараж" idZones="0">
@@ -669,11 +669,11 @@
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
     <param name="FireDeviceCount" type="Int" value="1"/>
+    <param name="AutoSet" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
   </zone>
@@ -707,8 +707,8 @@
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
@@ -719,54 +719,54 @@
   <zone idx="48" no="40" name="Зона безоп.МГН(225)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="Delay" type="Int64" value="0"/>
     <param name="ZoneType" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="AutoSet" type="Int64" value="0"/>
     <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="49" no="41" name="Коридор  МГН (226)" desc="Коридор зоны безопасности МГН" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
   </zone>
   <zone idx="50" no="42" name="Тренажерный зал(227)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <zone idx="51" no="35" name="Венткамера (216)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
-    <param name="ZoneType" type="Int" value="0"/>
-    <param name="FireDeviceCount" type="Int" value="2"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="ExitRestoreType" type="Int" value="0"/>
-    <param name="EnableExitTime" type="Bool" value="1"/>
-    <param name="GuardZoneType" type="Int" value="0"/>
     <param name="ExitTime" type="Int" value="0"/>
+    <param name="GuardZoneType" type="Int" value="0"/>
+    <param name="EnableExitTime" type="Bool" value="1"/>
+    <param name="ExitRestoreType" type="Int" value="0"/>
+    <param name="ZoneType" type="Int" value="0"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="Delay" type="Int64" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="FireDeviceCount" type="Int" value="2"/>
   </zone>
   <dev drv="0" addr="0">
     <prop name="INT$DEV_GUID" type="String" value="{167E5B78-CB68-4A49-AC7F-5BB80BC3E6EC}"/>
@@ -2066,7 +2066,6 @@
           <dev drv="65" addr="427" name="ДУ-1">
             <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;11&quot; operation=&quot;or&quot;&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot;/&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
             <prop name="Config$TimeOut" value="50"/>
-            <prop name="Config$RunningTime" value="0"/>
             <prop name="Config$SerialNum" value="4161062"/>
             <prop name="Config$SoftVersion" value="260"/>
             <prop name="INT$DEV_GUID" type="String" value="{9C2E3291-3395-4F68-BAFE-F4FA09686998}"/>
@@ -5450,16 +5449,16 @@
             <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;1&quot; IDDouble=&quot;0&quot;&gt;&lt;device UID=&quot;{F8627CB2-D146-4012-811C-07B742F530B1}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;/RCGroupProperties&gt;&#10;"/>
             <prop name="INT$DEV_GUID" type="String" value="{31EE8E56-3B5C-43AA-BF78-885A46C1BEED}"/>
           </dev>
-          <dev drv="18" addr="2" name="Дымоудоление">
+          <dev drv="18" addr="2" name="Дымоудоление компл.">
             <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;8&quot; IDDouble=&quot;0&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;/RCGroupProperties&gt;&#10;"/>
             <prop name="INT$DEV_GUID" type="String" value="{312141CD-9868-403F-B223-A78320DC7878}"/>
           </dev>
-          <dev drv="18" addr="3">
-            <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;0&quot; IDDouble=&quot;0&quot;/&gt;&#10;"/>
+          <dev drv="18" addr="3" name="Дымоудаление 1 этаж">
+            <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;3&quot; IDDouble=&quot;0&quot;&gt;&lt;device UID=&quot;{89F4B961-1042-48B4-AF99-965FE246A854}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{1D247121-E18D-4A18-A1E8-AF29A83DA2CD}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{516E203A-5381-47B6-8CD4-2923DF3A718F}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;/RCGroupProperties&gt;&#10;"/>
             <prop name="INT$DEV_GUID" type="String" value="{C3168802-B5A0-4708-BA91-4E4844CD02E0}"/>
           </dev>
-          <dev drv="18" addr="4">
-            <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;0&quot; IDDouble=&quot;0&quot;/&gt;&#10;"/>
+          <dev drv="18" addr="4" name="Дымоудаление 2 этаж">
+            <prop name="E98669E4-F602-4E15-8A64-DF9B6203AFC5" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;RCGroupProperties AMTPreset=&quot;0&quot; DevCount=&quot;5&quot; IDDouble=&quot;0&quot;&gt;&lt;device UID=&quot;{BF2C6518-E2EF-4494-99C5-9A3A490FBB50}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{0C1FCAC7-F020-4E9D-BFB5-6407735020DE}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{FD62DFD8-746A-4A1B-9EB8-D368AE2204D1}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{1451B744-E1A0-48ED-9B18-1A135F29547E}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;device UID=&quot;{CF1CF0ED-BB13-4EDC-8577-CB7DABAB337F}&quot; DelayOn=&quot;0&quot; DelayOff=&quot;0&quot; Inverse=&quot;0&quot; MsgNum=&quot;0&quot; MsgType=&quot;0&quot;/&gt;&lt;/RCGroupProperties&gt;&#10;"/>
             <prop name="INT$DEV_GUID" type="String" value="{916ABF39-D2DB-4680-AB7D-326557D9EB39}"/>
           </dev>
           <dev drv="18" addr="5">
