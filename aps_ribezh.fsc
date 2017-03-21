@@ -394,15 +394,15 @@
   <zone idx="23" no="28" name="Коридор 2эт.адм(205)" desc="Административное крыло" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
     <param name="DB$IDParentZones" type="Null" value="&lt;NULL&gt;"/>
+    <param name="Skipped" type="Bool" value="0"/>
+    <param name="AutoSet" type="Int64" value="0"/>
+    <param name="ExitTime" type="Int" value="0"/>
     <param name="GuardZoneType" type="Int" value="0"/>
     <param name="EnableExitTime" type="Bool" value="1"/>
     <param name="ZoneType" type="Int" value="0"/>
     <param name="ExitRestoreType" type="Int" value="0"/>
     <param name="FireDeviceCount" type="Int" value="2"/>
     <param name="Delay" type="Int64" value="0"/>
-    <param name="Skipped" type="Bool" value="0"/>
-    <param name="AutoSet" type="Int64" value="0"/>
-    <param name="ExitTime" type="Int" value="0"/>
   </zone>
   <zone idx="24" no="29" name="Судейская (206)" idZones="0">
     <param name="DB$IDZones" type="Int" value="0"/>
@@ -1381,28 +1381,32 @@
           <dev drv="77" addr="436">
             <prop name="INT$DEV_GUID" type="String" value="{37209017-43A4-41CE-9A7C-7D1A96C6B081}"/>
             <dev drv="31" addr="0" name="Пищалки 1,1">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{F1D96FEA-F614-4FDA-A9F4-8F72EFA0054A}"/>
             </dev>
             <dev drv="31" addr="1" name="Пищалки 1,2">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{4E1924D1-FF69-4333-90B0-D1E812C88A72}"/>
             </dev>
             <dev drv="31" addr="2" name="Пищалки 1,3 Зал">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{E55EDADE-DD87-4048-9648-A61F6053F0AA}"/>
             </dev>
             <dev drv="31" addr="3" name="Пищалки 1,4 Зал">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
@@ -1459,14 +1463,16 @@
           <dev drv="75" addr="446">
             <prop name="INT$DEV_GUID" type="String" value="{755E3062-055C-4D33-9B26-6296B9AEC650}"/>
             <dev drv="31" addr="0" name="Пищалки 3,1">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
               <prop name="INT$DEV_GUID" type="String" value="{450AA6B4-807C-4FD1-B4F4-62BE1F766341}"/>
             </dev>
             <dev drv="31" addr="1" name="Пищалки 3,2">
-              <prop name="ExtendedZoneLogic" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#10;&lt;expr&gt;&lt;clause state=&quot;2&quot; operation=&quot;or&quot; MRO_MessageNo=&quot;0&quot; MRO_MessageType=&quot;0&quot;&gt;&lt;zone&gt;1&lt;/zone&gt;&lt;zone&gt;2&lt;/zone&gt;&lt;zone&gt;3&lt;/zone&gt;&lt;zone&gt;4&lt;/zone&gt;&lt;zone&gt;5&lt;/zone&gt;&lt;zone&gt;6&lt;/zone&gt;&lt;zone&gt;7&lt;/zone&gt;&lt;zone&gt;8&lt;/zone&gt;&lt;zone&gt;9&lt;/zone&gt;&lt;zone&gt;10&lt;/zone&gt;&lt;zone&gt;11&lt;/zone&gt;&lt;zone&gt;12&lt;/zone&gt;&lt;zone&gt;13&lt;/zone&gt;&lt;zone&gt;14&lt;/zone&gt;&lt;zone&gt;15&lt;/zone&gt;&lt;zone&gt;16&lt;/zone&gt;&lt;zone&gt;17&lt;/zone&gt;&lt;zone&gt;18&lt;/zone&gt;&lt;zone&gt;19&lt;/zone&gt;&lt;zone&gt;20&lt;/zone&gt;&lt;zone&gt;21&lt;/zone&gt;&lt;zone&gt;22&lt;/zone&gt;&lt;zone&gt;23&lt;/zone&gt;&lt;zone&gt;24&lt;/zone&gt;&lt;zone&gt;25&lt;/zone&gt;&lt;zone&gt;26&lt;/zone&gt;&lt;zone&gt;27&lt;/zone&gt;&lt;zone&gt;28&lt;/zone&gt;&lt;zone&gt;29&lt;/zone&gt;&lt;zone&gt;30&lt;/zone&gt;&lt;zone&gt;31&lt;/zone&gt;&lt;zone&gt;32&lt;/zone&gt;&lt;zone&gt;33&lt;/zone&gt;&lt;zone&gt;34&lt;/zone&gt;&lt;zone&gt;35&lt;/zone&gt;&lt;zone&gt;36&lt;/zone&gt;&lt;zone&gt;37&lt;/zone&gt;&lt;zone&gt;38&lt;/zone&gt;&lt;zone&gt;39&lt;/zone&gt;&lt;zone&gt;40&lt;/zone&gt;&lt;zone&gt;41&lt;/zone&gt;&lt;zone&gt;42&lt;/zone&gt;&lt;zone&gt;43&lt;/zone&gt;&lt;zone&gt;44&lt;/zone&gt;&lt;zone&gt;45&lt;/zone&gt;&lt;zone&gt;46&lt;/zone&gt;&lt;zone&gt;47&lt;/zone&gt;&lt;zone&gt;48&lt;/zone&gt;&lt;zone&gt;49&lt;/zone&gt;&lt;/clause&gt;&lt;/expr&gt;&#10;"/>
+              <prop name="NotUsed" value="1"/>
+              <prop name="ExtendedZoneLogic"/>
               <prop name="Config$ControlOutput" value="3"/>
               <prop name="Config$SerialNum" value="16843009"/>
               <prop name="Config$SoftVersion" value="514"/>
